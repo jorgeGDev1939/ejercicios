@@ -16,3 +16,8 @@ git merge "nombre_rama"
 
 si se quiere eliminar la rama porque no se ocupara denuevo se usa:
 git merge -d "nombre_rama"
+
+para agregar repo a github se debe usar el comando:
+git remote add origin "URL"
+
+para revisar que esta correcto se puede utilizar git remote -v
