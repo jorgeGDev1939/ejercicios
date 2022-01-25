@@ -6,3 +6,13 @@ git status
 git show nombreArchivo
 git log nombreArchivo
 git diff permite ver los cambios entre 2 archivos
+
+git branch "nombre rama" sirbe para crear rama
+git checkout "nombre rama" sirve para moverse entre ramas
+
+para hacer un merge se debe estar en la rama que se quiere conservar
+luego para hacer el merge se usa:
+git merge "nombre_rama"
+
+si se quiere eliminar la rama porque no se ocupara denuevo se usa:
+git merge -d "nombre_rama"
